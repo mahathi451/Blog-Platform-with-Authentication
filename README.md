@@ -69,3 +69,6 @@ id = db.Column(db.Integer, primary_key=True)
 title = db.Column(db.String(100))
 content = db.Column(db.Text)
 user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+
+*Code:* MIT License | *Content:* CC BY-NC-SA 4.0
+
